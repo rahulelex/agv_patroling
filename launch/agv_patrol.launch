@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- To run Patroling node -->
+<launch>
+
+  <arg name="robot_ns" default="jackal01"/>
+  <arg name="map_name" default="map1"/>
+
+  <!-- Start Patroling node -->
+  <node pkg="agv_patroling" type="agv_patrol.py" name="agv_patrol" args= '$(arg robot_ns) $(arg map_name)' 
+    output="screen"/>
+  
+  </launch>
