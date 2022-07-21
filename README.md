@@ -1,12 +1,12 @@
 # AGV patroling
 ## Use case of this script
-This python node (agv_patrol.py) can be used to patrol robot from starting point to sent goal point.
+This python node can be used to patrol robot from starting point to sent goal point.
 
 ## Prerequisite
 Robot should be in state that it can navigate to any goal position.
 
 ## To start patroling user need to follow two steps.
-1. Run agv-patrol.launch file and give agv name and map name as an argument.
+1. Run agv_patrol.launch file and give agv name and map name as an argument.
 2. Then publish goal position on topic /patrol to start patroling.
 
 ## Additional feature
